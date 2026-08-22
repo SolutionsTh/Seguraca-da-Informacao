@@ -1,0 +1,113 @@
+nav ul a,
+nav .brand-logo {
+	color: #444;
+}
+
+p {
+	line-height: 2rem;
+}
+
+.sidenav-trigger {
+	color: #26a69a;
+}
+.parallax-container {
+	min-height: 80vh;
+	line-height: 0;
+	height: auto;
+	color: rgba(255,255,255,.9);
+}
+.section.gray-light{
+	margin: 70px 0px;
+	background: #fafafa !important;
+}
+.conteudo{
+	background: #fafafa;
+}
+.section.section-gray-dark.last{
+	padding: 70px 0;
+}
+.section-gray-dark {
+	min-height: 100vh !important;
+	background: #1C1C1C !important;
+}
+
+@media only screen and (max-width : 992px) {
+	.parallax-container .section {
+		position: absolute;
+		top: 40%;
+	}
+	#index-banner .section {
+		top: 10%;
+	}
+}
+
+@media only screen and (max-width : 600px) {
+	#index-banner .section {
+		top: 0;
+	}
+}
+
+.icon-block {
+	padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+footer.page-footer {
+	margin: 0;
+}
+
+
+
+
+
+
+.wrapper{
+  width: 100%;
+  margin: 0 auto;
+}
+
+main{
+  display: block;
+  margin-left: 50px;
+}
+@media (max-width: 900px) {
+	main{
+		margin-left: 0;
+	}
+}
+
+
+section.module.parallax{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh !important;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+section.module.parallax:after{
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 8;
+}
+
+
+section.module.parallax-2{
+  height: 86vh !important;
+}
+section.module.parallax-3{
+  height: 87vh !important;
+}
