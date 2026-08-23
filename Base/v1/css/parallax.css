@@ -1,3 +1,15 @@
+/* IMAGENS */
+section.module.parallax-introducao{
+    background-image: url("../img/parallax-introducao.png");
+}
+
+section.module.parallax-objetivos-de-aprendizagem{
+    background-image: url("../img/parallax-objetivos-de-aprendizagem.png");
+}
+
+
+
+/* MAIN */
 nav ul a,
 nav .brand-logo {
 	color: #444;
@@ -17,7 +29,8 @@ p {
 	color: rgba(255,255,255,.9);
 }
 .section.gray-light{
-	margin: 70px 0px;
+	/* margin: 70px 0px; */
+	margin: 40px 0;
 	background: #fafafa !important;
 }
 .conteudo{
@@ -59,10 +72,6 @@ footer.page-footer {
 }
 
 
-
-
-
-
 .wrapper{
   width: 100%;
   margin: 0 auto;
@@ -70,7 +79,6 @@ footer.page-footer {
 
 main{
   display: block;
-  margin-left: 50px;
 }
 @media (max-width: 900px) {
 	main{
@@ -79,11 +87,13 @@ main{
 }
 
 
+
 section.module.parallax{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100vh !important;
+  /* height: 100vh !important; */
+  height: 70vh !important;
   width: 100%;
   position: relative;
   overflow: hidden;
@@ -95,7 +105,6 @@ section.module.parallax{
   -moz-background-size: cover;
   -o-background-size: cover;
 }
-
 section.module.parallax:after{
   content: "";
   height: 100%;
@@ -104,10 +113,6 @@ section.module.parallax:after{
   z-index: 8;
 }
 
-
-section.module.parallax-2{
-  height: 86vh !important;
-}
-section.module.parallax-3{
-  height: 87vh !important;
-}
+/* section.module.parallax-introducao, section.module.parallax-objetivos-de-aprendizagem{
+  height: 74vh !important;
+} */
