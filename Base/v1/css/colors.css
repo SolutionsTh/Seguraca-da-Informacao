@@ -18,6 +18,16 @@
 
 */
 /* txt */
+
+.m-txt-blue-ers {color: #003366 !important;}
+.m-txt-orange-ers {color: #FF8000 !important;}
+.m-txt-linear-blue-orange-ers {
+    /* display: inline-block; */
+    background: linear-gradient(to right, #003366, #FF8000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .m-txt-red {color: #F44336 !important;}
 .m-txt-red.txt-light-5 {color: #FFEBEE !important;}
 .m-txt-red.txt-light-4 {color: #FFCDD2 !important;}

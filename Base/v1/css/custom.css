@@ -1,20 +1,91 @@
-/* #uni .section {
-	position: relative;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+	font-size: 19px;
+    line-height: 1.4;
+    color: #333333;
 	width: 100%;
-	min-height: 100vh !important;
+}
+
+
+p{
+	margin: 0 0 24px 0;
+}
+h1, h2, h3, h4, h5, h6{
+	margin: 0 0 30px  0;
+	font-family: "Poppins", sans-serif, arial !important;
+}
+
+h1{
+	font-size: 42px;
+	font-weight: 700;
+	margin-bottom: 45px
+}
+
+h2{
+	font-size: 35px;
+	font-weight: 600;
+}
+
+h3{
+	font-size: 32px;
+	font-weight: 700;
+}
+
+h4{
+	font-size: 28px;
+	font-weight: 600;
+}
+
+h5{
+	font-size: 24px;
+	font-weight: 600;
+}
+
+h6{
+	font-size: 20px;
+	font-weight: 600;
+}
+
+
+.conteudo h1, h2, h3, h4, h5, h6{
+	margin: 50px 0 25px  0;
+}
+/* .conteudo h5.titulo{
+    font-size: 28px;
+}
+.conteudo h6.titulo.titulo1{
+    font-size: 24px;
+}
+.conteudo h6.titulo.titulo1{
+    font-size: 20px;
 } */
+/* .conteudo .section .row{
+    min-height: 93.4vh;
+} */
+.conteudo .section.capa .row{
+    min-height: auto !important;
+}
 
 
 .font-weight-600{
     font-weight: bold;
 }
+
+
+.offset-s4 {
+    margin-left: 33.3333333333%;
+    color: #333333;
+}
+
 .extra-dark-gray {
-    color: #232323;
+    color: #333333;
 }
-.text-deep-pink{
-    color: #e91e63 !important;
-    font-weight: bold;
-}
+
 
 ol li::before, ol li::before {
 	content: counters(item, ".") ". ";
@@ -44,7 +115,7 @@ ol ol ol, ol ol ol{
 	margin: 0 0 0 1rem;
 }
 ul li::before, ol li::before {
-    color: #e91e63;
+    color: #003366;
 }
 ul li::before {
 	font-family: "Material Design Icons";
@@ -62,85 +133,6 @@ ul li::before {
 }
 
 
-
-
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body{
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-	font-size: 19px;
-    line-height: 1.4;
-    color: #444444;
-	width: 100%;
-}
-
-
-p{
-	margin: 0 0 24px 0;
-}
-h1, h2, h3, h4, h5, h6{
-	margin: 0 0 30px  0;
-	font-family: "Poppins", sans-serif, arial !important;
-}
-
-h1{
-	font-size: 42px;
-	font-weight: 700;
-	margin-bottom: 45px
-}
-
-h2{
-	font-size: 35px;
-	font-weight: 600;
-}
-
-h3{
-	font-size: 30px;
-	font-weight: 600;
-}
-
-h4{
-	font-size: 27px;
-	font-weight: 600;
-}
-
-h5{
-	font-size: 22px;
-	font-weight: 600;
-}
-.material h2{
-	font-size: 25px;
-	font-weight: 500;
-	margin: 0 0 5px  0;
-}
-.material h1{
-	font-weight: 500;
-	margin: 0 0 5px  0;
-}
-.conteudo h1, h2, h3, h4, h5, h6{
-	margin: 40px 0 30px  0;
-}
-.conteudo h5.titulo{
-    font-size: 1.6rem;
-}
-.conteudo h6.titulo.titulo1{
-    font-size: 1.45rem;
-}
-.conteudo h6.titulo.titulo1{
-    font-size: 1.3rem;
-}
-.conteudo .section .row{
-    min-height: 93.4vh;
-}
-.conteudo .section.capa .row{
-    min-height: auto !important;
-}
-
-
-
 a {
 	text-decoration: none !important;
 	word-break: break-all;
@@ -152,10 +144,10 @@ a {
     color: #ffffff;
 }
 .gray-light a{
-    color: #444444!important;
+    color: #333333!important;
 }
 .gray-light a:hover{
-    color: #444444!important;
+    color: #333333!important;
 }
 .gray-light .bx.bx-referencia a{
     color: #ffffff!important;
@@ -229,13 +221,13 @@ body::-webkit-scrollbar-thumb:hover{
     margin-bottom: .2rem;
 }
 .pink-list li::before {
-    color: #e91e63;
+    color: #003366;
 }
 ul:not(.browser-default)>li {
     list-style-type: none;
 }
 
-.pink-list .square-list.pink-list li::before { color: #444444; }
+.pink-list .square-list.pink-list li::before { color: #333333; }
 
 
 .arrow-list li::before {
