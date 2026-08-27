@@ -50,29 +50,6 @@
 <body class="conteudo">
 
 	<!-- NAVEGAÇÂO FLUTUANTE -->
-	<!-- <div id="nav-fab" class="nav-fab">
-		<a href="#" data-target="slide-out" class="sidenav-trigger"><i class="menu icon txt-white mdi mdi-menu" id="menu-icon"></i></a>
-
-		<ul id="slide-out" class="sidenav">
-
-			<li><a title="Objetivos" href="#cs2"><i class="icon icon-menu mdi mdi-checkbox-marked-outline"></i><span class="white-text">Objetivos</span></a></li>
-
-			<li><a title="Apresentação da Disciplina" href="#cs3"><i class="icon icon-menu mdi mdi-format-list-text"></i><span class="white-text">Apresentação da Disciplina</span></a></li>
-
-			<li><a title="Para Início de Conversa" href="#cs4"><i class="icon icon-menu mdi mdi-format-align-center"></i><span class="white-text">Para Início de Conversa</span></a></li>
-
-			<li><a title="Aprofundando o Tema" href="#cs5"><i class="icon icon-menu mdi mdi-pencil"></i><span class="white-text">Aprofundando o Tema</span></a></li>
-
-			<li><a title="Curadoria" href="#cs6"><i class="icon icon-menu mdi mdi-rocket"></i><span class="white-text">Curadoria</span></a></li>
-
-			<li><a title="Sala de Aula" href="#cs7"><i class="icon icon-menu mdi mdi-video-account"></i><span class="white-text">Sala de Aula</span></a></li>
-
-			<li><a title="Saiba Mais" href="#cs8"><i class="icon icon-menu mdi mdi-file-document-edit"></i><span class="white-text">Saiba Mais</span></a></li>
-
-			<li><a title="Referências" href="#cs9"><i class="icon icon-menu mdi mdi-book"></i><span class="white-text">Referências</span></a></li>
-
-		</ul>
-	</div> -->
 	<div class="botao-horas">
       <a class="link-horas" href="#" id="btnMenu">
         <i class="icone-horas mdi mdi-menu" id="icone-horas"></i>
@@ -109,7 +86,7 @@
 		<main>
 
 			<!-- CAPA -->
-			<div data-cc="on" class="cover-overlay cover-overlay-mobile bg-capa valign-wrapper bg-right bg-cover bg-fixed"></div>
+			<div class="cover-overlay cover-overlay-mobile bg-capa valign-wrapper bg-right bg-cover bg-fixed"></div>
 			<div class="section capa" id="cs1">
 
 				<video class="cover-video" autoplay muted loop playsinline>
@@ -118,7 +95,7 @@
 
 				<div class="row container txt-white">
 
-					<div class="section-title" uk-scrollspy="cls: uk-animation-slide-bottom-medium; delay: 200;">
+					<div class="section-title" uk-scrollspy="cls: uk-animation-fade; repeat: true; delay: 300;">
 
 						<h1 class="txt-white txt-center">Introdução ao PPSI e à Gestão de Segurança da Informação</h1>
 					</div>
@@ -169,9 +146,9 @@
 
 							<p>Ao longo do módulo, você aprofundará seus conhecimentos sobre os conteúdos específicos abordados e, ao final, deverá alcançar os seguintes objetivos de aprendizagem:</p>
 
-							<div class="obejetivos-content" >
+							<div class="obejetivos-content" uk-scrollspy="cls: uk-animation-slide-left-medium; target:.obejetivo-content; delay: 500;">
 
-								<div class="obejetivo-content" uk-scrollspy="cls: uk-animation-slide-left-medium; delay: 600;">
+								<div class="obejetivo-content">
 									<div class="objetivo-title">
 										<div class="objetivo-title-number-content">
 											<p class="objetivo-title-number">1</p>
@@ -182,7 +159,7 @@
 									</div>
 								</div>
 
-								<div class="obejetivo-content" uk-scrollspy="cls: uk-animation-slide-left-medium; delay: 700;">
+								<div class="obejetivo-content">
 									<div class="objetivo-title">
 										<div class="objetivo-title-number-content">
 											<p class="objetivo-title-number">2</p>
@@ -193,7 +170,7 @@
 									</div>
 								</div>
 
-								<div class="obejetivo-content" uk-scrollspy="cls: uk-animation-slide-left-medium; delay: 800;">
+								<div class="obejetivo-content">
 									<div class="objetivo-title">
 										<div class="objetivo-title-number-content">
 											<p class="objetivo-title-number">3</p>
@@ -204,7 +181,7 @@
 									</div>
 								</div>
 
-								<div class="obejetivo-content" uk-scrollspy="cls: uk-animation-slide-left-medium; delay: 900;">
+								<div class="obejetivo-content">
 									<div class="objetivo-title">
 										<div class="objetivo-title-number-content">
 											<p class="objetivo-title-number">4</p>
@@ -215,7 +192,7 @@
 									</div>
 								</div>
 
-								<div class="obejetivo-content" uk-scrollspy="cls: uk-animation-slide-left-medium; delay: 1000;">
+								<div class="obejetivo-content">
 									<div class="objetivo-title">
 										<div class="objetivo-title-number-content">
 											<p class="objetivo-title-number">5</p>
@@ -237,13 +214,13 @@
 			<section class="module parallax parallax-conteudo">
 				<div class="overlay"></div>
 
-				<div class="conteudo-titulo" uk-scrollspy="cls: uk-animation-slide-bottom-medium; delay: 200;">
+				<div class="conteudo-titulo" uk-scrollspy="cls: uk-animation-scale-up; repeat: true; delay: 200;">
 					<span> Conteúdo</span>
 				</div>
 			</section>
 
 			<!-- CONTEÚDO -->
-			<div data-cc="on" class="section bg-conteudo valign-wrapper bg-center bg-cover bg-fixed x-index" id="cs4">
+			<div data-cc="on" class="section bg-conteudo valign-wrapper bg-center bg-cover bg-fixed x-index" id="cs4" uk-scrollspy="cls: uk-animation-slide-bottom-medium; target:.section-text; delay: 400;">
 
 				<div class="row container">
 					<div class="col s12 m12 l12">
@@ -254,7 +231,7 @@
 							</h2>
 						</div> -->
 
-						<div class="section-text" uk-scrollspy="cls: uk-animation-slide-bottom-medium; delay: 500;">
+						<div class="section-text">
 
 							<h3 class="m-txt-blue-ers titulo">Introdução ao PPSI e à Gestão de Segurança da Informação</h3>
 
@@ -274,29 +251,101 @@
 
 							<p>Para não criar burocracia excessiva, o PPSI organiza cinco papéis estratégicos que devem atuar em sintonia, evitando que a segurança fique isolada em "silos":</p>
 
-							<p><strong>Alta Administração: </strong>Provê direcionamento estratégico, decisões críticas e liberação de recursos necessários para o programa.</p>
+							<div class="destaque">
+								<div class="row grafico-steps-box grafico-steps-box-2" uk-scrollspy="cls: uk-animation-fade; target: .grafico-steps; delay: 300">
 
-							<p><strong>Gestor de TI: </strong>Desenha e executa controles de segurança específicos no ambiente tecnológico e na cadeia de suprimentos.</p>
+									<div class="grafico-steps">
+										<div class="grafico-steps-titulo">
+											<div class="txt-left txt-bold txt-white">Alta Administração:</div>
+										</div>
+										<div class="grafico-steps-texto">
+											<p>Provê direcionamento estratégico, decisões críticas e liberação de recursos necessários para o programa.</p>
+										</div>
+									</div>
 
-							<p><strong>Gestor de Segurança da Informação: </strong>Realiza diagnósticos técnicos profundos e modela as salvaguardas de proteção.</p>
+									<div class="grafico-steps">
+										<div class="grafico-steps-titulo">
+											<div class="txt-left txt-bold txt-white">Gestor de TI:</div>
+										</div>
+										<div class="grafico-steps-texto">
+											<p>Desenha e executa controles de segurança específicos no ambiente tecnológico e na cadeia de suprimentos.</p>
+										</div>
+									</div>
 
-							<p><strong>Encarregado (DPO): </strong>Guardião das garantias de privacidade, assegurando o cumprimento das regras de proteção de dados pessoais.</p>
+									<div class="grafico-steps">
+										<div class="grafico-steps-titulo">
+											<div class="txt-left txt-bold txt-white">Gestor de Segurança da Informação:</div>
+										</div>
+										<div class="grafico-steps-texto">
+											<p>Realiza diagnósticos técnicos profundos e modela as salvaguardas de proteção.</p>
+										</div>
+									</div>
 
-							<p><strong>Responsável pela Integridade: </strong>Atua na articulação integrada, evitando que os processos institucionais funcionem de forma isolada.<a href="about:blank" target="_blank">[TM1]</a></p>
+									<div class="grafico-steps">
+										<div class="grafico-steps-titulo">
+											<div class="txt-left txt-bold txt-white">Encarregado (DPO):</div>
+										</div>
+										<div class="grafico-steps-texto">
+											<p>Guardião das garantias de privacidade, assegurando o cumprimento das regras de proteção de dados pessoais.</p>
+										</div>
+									</div>
+
+									<div class="grafico-steps">
+										<div class="grafico-steps-titulo">
+											<div class="txt-left txt-bold txt-white">Responsável pela Integridade:</div>
+										</div>
+										<div class="grafico-steps-texto">
+											<p>Atua na articulação integrada, evitando que os processos institucionais funcionem de forma isolada.</p>
+										</div>
+									</div>
+
+								</div>
+							</div>
 
 							<p>Regulamentado pelo art. 4º da Portaria, o programa opera através de cincos eixos temáticos articulados: Governança, Maturidade, Metodologia, Pessoas e Tecnologia. Estes pilares complementares asseguram a proteção dos ativos e a conformidade regulatória no ecossistema do Sistema de Administração dos Recursos de Tecnologia da Informação (SISP).</p>
 
-							<p><strong>1. Governança:</strong> Garante a coordenação estratégica, o alinhamento a políticas públicas e a otimização de recursos institucionais.</p>
+							<div class="destaque">
+								<div class="row grafico-steps-box grafico-steps-box-1" uk-scrollspy="cls: uk-animation-fade; target: .grafico-steps; delay: 300">
 
-							<p><strong>2. Maturidade:</strong> Foca na avaliação contínua e no aprimoramento dos controles de privacidade e segurança do órgão.</p>
+									<div class="grafico-steps">
+										<div class="title-grafico-steps"><span>1</span></div>
+										<div class="text-grafico-steps">
+											<p><strong>Governança:</strong> Garante a coordenação estratégica, o alinhamento a políticas públicas e a otimização de recursos institucionais.</p>
+										</div>
+									</div>
 
-							<p><strong>3. Metodologia:</strong> Padroniza a gestão de riscos e processos de adequação, utilizando referências como ISO 27005 ou CIS RAM.</p>
+									<div class="grafico-steps">
+										<div class="title-grafico-steps"><span>2</span></div>
+										<div class="text-grafico-steps">
+											<p><strong>Maturidade:</strong> Foca na avaliação contínua e no aprimoramento dos controles de privacidade e segurança do órgão.</p>
+										</div>
+									</div>
 
-							<p><strong>4. Pessoas:</strong> Promove a cultura de segurança através de planos de conscientização, treinamentos e engajamento dos servidores.</p>
+									<div class="grafico-steps">
+										<div class="title-grafico-steps"><span>3</span></div>
+										<div class="text-grafico-steps">
+											<p><strong>Metodologia:</strong> Padroniza a gestão de riscos e processos de adequação, utilizando referências como ISO 27005 ou CIS RAM.</p>
+										</div>
+									</div>
 
-							<p><strong>5. Tecnologia:</strong> Define a implementação técnica de controles, ferramentas de proteção e segurança na cadeia de suprimentos de TI.<a href="about:blank" target="_blank">[TM2]</a></p>
+									<div class="grafico-steps">
+										<div class="title-grafico-steps"><span>4</span></div>
+										<div class="text-grafico-steps">
+											<p><strong>Pessoas:</strong> Promove a cultura de segurança através de planos de conscientização, treinamentos e engajamento dos servidores.</p>
+										</div>
+									</div>
 
-							<p>Para dar suporte a essa estrutura, o programa conta com dois centros nacionais de excelência: o <strong>CISC gov.br,</strong> que atua na linha de frente da prevenção e resposta a incidentes, e o <strong>CEPS gov.br</strong>, focado em promover a cultura de privacidade e segurança por meio de capacitação e boas práticas, além claro da <strong>REGIC</strong> (Rede de Federal de Gestão de Incidentes Cibernéticos). Qualquer plano de conscientização institucional deve buscar articulação com essas iniciativas nacionais, ganhando escala e legitimidade.<a href="about:blank" target="_blank">[TM3]</a></p>
+									<div class="grafico-steps">
+										<div class="title-grafico-steps"><span>5</span></div>
+										<div class="text-grafico-steps">
+											<p><strong>Tecnologia:</strong> Define a implementação técnica de controles, ferramentas de proteção e segurança na cadeia de suprimentos de TI.</p>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+							<p>Para dar suporte a essa estrutura, o programa conta com dois centros nacionais de excelência: o <strong>CISC gov.br,</strong> que atua na linha de frente da prevenção e resposta a incidentes, e o <strong>CEPS gov.br</strong>, focado em promover a cultura de privacidade e segurança por meio de capacitação e boas práticas, além claro da <strong>REGIC</strong> (Rede de Federal de Gestão de Incidentes Cibernéticos). Qualquer plano de conscientização institucional deve buscar articulação com essas iniciativas nacionais, ganhando escala e legitimidade.</p>
 
 							<h5 class="titulo">O Ciclo de Execução: PPSI na prática</h5>
 
@@ -324,7 +373,7 @@
 
 							<p>Como padrão internacional consagrado, a ISO/IEC 27001 estabelece os requisitos indispensáveis para a concepção, implementação, manutenção e aprimoramento contínuo de um Sistema de Gestão de Segurança da Informação (SGSI). A finalidade central dessa norma é salvaguardar os ativos de informação por meio de uma estrutura consolidada de políticas, processos e controles, assegurando de forma constante a confidencialidade, a integridade e a disponibilidade dos dados organizacionais.</p>
 
-							<p>Fundamentada no ciclo dinâmico do PDCA<a href="about:blank" target="_blank">[TM4]</a>  (<em>Plan-Do-Check-Act</em>), a norma consolida um modelo de governança que unifica e integra processos, pessoas e recursos tecnológicos — pilares que também sustentam o Programa de Privacidade e Segurança da Informação sob a Portaria SGD/MGI n.º 9.511/2025. No contexto da administração pública, ela atua como um guia metodológico essencial para a identificação e tratamento de riscos, estruturação de salvaguardas técnicas, definição de responsabilidades e acompanhamento da melhoria contínua, organizando-se em diretrizes como liderança, planejamento, apoio, operação, avaliação de desempenho e ações corretivas.</p>
+							<p>Fundamentada no ciclo dinâmico do PDCA  (<em>Plan-Do-Check-Act</em>), a norma consolida um modelo de governança que unifica e integra processos, pessoas e recursos tecnológicos — pilares que também sustentam o Programa de Privacidade e Segurança da Informação sob a Portaria SGD/MGI n.º 9.511/2025. No contexto da administração pública, ela atua como um guia metodológico essencial para a identificação e tratamento de riscos, estruturação de salvaguardas técnicas, definição de responsabilidades e acompanhamento da melhoria contínua, organizando-se em diretrizes como liderança, planejamento, apoio, operação, avaliação de desempenho e ações corretivas.</p>
 
 							<h5 class="titulo">CIS - Center for Internet Security</h5>
 
@@ -336,13 +385,83 @@
 
 							<p><strong>O método CIS RAM orienta as organizações na busca por respostas a questões como:</strong></p>
 
-							<p>1.     Quais são as ameaças e os riscos reais que impactam nossa organização?</p>
+							<div class="destaque">
 
-							<p>2.     O que determina uma postura de "devido cuidado" ou de "razoabilidade" em nossa defesa?</p>
+								<div class="grafico-box grafico-box-1">
 
-							<p>3.     Qual é o nível ideal e suficiente de investimento em segurança?<a href="about:blank" target="_blank">[TM5]</a></p>
+									<div class="grafico-box-content-wrapper">
+										<div class="grafico-box-content">
 
-							<p><strong><em>    Princípios do CIS RAM</em></strong></p>
+											<p>Quais são as ameaças e os riscos reais que impactam nossa organização?</p>
+
+										</div>
+									</div>
+
+									<div class="grafico-box-content-wrapper">
+										<div class="grafico-box-content">
+
+											<p>O que determina uma postura de "devido cuidado" ou de "razoabilidade" em nossa defesa?</p>
+
+										</div>
+									</div>
+
+									<div class="grafico-box-content-wrapper">
+										<div class="grafico-box-content">
+
+											<p>Qual é o nível ideal e suficiente de investimento em segurança?</p>
+
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+							<div class="destaque">
+								<ul uk-accordion="" class="accordion uk-accordion">
+
+									<li>
+										<a class="uk-accordion-title txt-white" href="#">
+											<div class="accordion-title-content-text">Título 1</div>
+											<div class="accordion-title-content-icon"><i class="icon mdi mdi-plus"></i></div>
+										</a>
+
+										<div class="uk-accordion-content" hidden="" aria-hidden="true">
+											<div class="uk-accordion-content-texto txt-grey">
+												<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+											</div>
+										</div>
+									</li>
+
+									<li>
+										<a class="uk-accordion-title txt-white" href="#">
+											<div class="accordion-title-content-text">Título 2</div>
+											<div class="accordion-title-content-icon"><i class="icon mdi mdi-plus"></i></div>
+										</a>
+
+										<div class="uk-accordion-content" hidden="" aria-hidden="true">
+											<div class="uk-accordion-content-texto txt-grey">
+												<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+											</div>
+										</div>
+									</li>
+
+									<li>
+										<a class="uk-accordion-title txt-white" href="#">
+											<div class="accordion-title-content-text">Título 3</div>
+											<div class="accordion-title-content-icon"><i class="icon mdi mdi-plus"></i></div>
+										</a>
+
+										<div class="uk-accordion-content" hidden="" aria-hidden="true">
+											<div class="uk-accordion-content-texto txt-grey">
+												<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+											</div>
+										</div>
+									</li>
+
+								</ul>
+							</div>
+
+							<p><strong><em>Princípios do CIS RAM</em></strong></p>
 
 							<p>1.     A análise de riscos deve englobar de forma ativa os interesses de todas as partes potencialmente impactadas pelas ameaças identificadas.</p>
 
@@ -372,7 +491,7 @@
 
 							<p>9.     A modelagem e avaliação de cenários dependem da contribuição direta de especialistas que se baseiam em evidências robustas para avaliar vulnerabilidades e salvaguardas.</p>
 
-							<p>10.  Uma única rodada de diagnóstico não é capaz de prever todas as ameaças possíveis; desse modo, as avaliações devem ser realizadas de forma cíclica e periódica para mitigar novos cenários de risco ao longo do tempo.<a href="about:blank" target="_blank">[TM6]</a></p>
+							<p>10.  Uma única rodada de diagnóstico não é capaz de prever todas as ameaças possíveis; desse modo, as avaliações devem ser realizadas de forma cíclica e periódica para mitigar novos cenários de risco ao longo do tempo.</p>
 
 							<p>A metodologia do CIS RAM está consolidada sobre o conceito central de razoabilidade da segurança. Assim, além de estruturar as vulnerabilidades técnicas, o escopo de análise foca em ponderar a proteção dos ativos frente ao custo de implementação e viabilidade das contramedidas. Esse processo torna-se um artefato valioso para prestar contas perante as esferas reguladoras e parceiros estratégicos, evidenciando formalmente que os investimentos e políticas foram pautados em "razoabilidade", "devido cuidado" e "adequação institucional".</p>
 
@@ -384,7 +503,7 @@
 
 							<p><strong>IG2 - Intermediário: </strong>Direcionado para organizações que possuem equipes de tecnologia estruturadas e que enfrentam exigências regulatórias adicionais de proteção.</p>
 
-							<p><strong>IG3 - Avançado: </strong>Indicado para grandes corporações ou instituições governamentais de alta criticidade e exposição a riscos cibernéticos severos, exigindo rigor na custódia de dados altamente sensíveis.<a href="about:blank" target="_blank">[TM7]</a></p>
+							<p><strong>IG3 - Avançado: </strong>Indicado para grandes corporações ou instituições governamentais de alta criticidade e exposição a riscos cibernéticos severos, exigindo rigor na custódia de dados altamente sensíveis.</p>
 
 							<p>Dashboard de Controles CIS v8.1: O Caminho da Maturidade</p>
 
@@ -430,7 +549,7 @@
 
 							<p>4.       <strong>Proposta de Salvaguardas:</strong> Indique quais controles do CIS são ideais para mitigar de forma direta os riscos classificados como intoleráveis.</p>
 
-							<p>5.       <strong>Validação das Contramedidas:</strong> Certifique-se de que os controles propostos de fato reduzem a exposição, sem impor barreiras operacionais ou despesas desproporcionais.<a href="about:blank" target="_blank">[TM8]</a></p>
+							<p>5.       <strong>Validação das Contramedidas:</strong> Certifique-se de que os controles propostos de fato reduzem a exposição, sem impor barreiras operacionais ou despesas desproporcionais.</p>
 
 							<h5 class="titulo">O Guia CIS <em>Privacy Companion</em>: Alinhando Segurança Técnica e Privacidade</h5>
 
@@ -446,13 +565,13 @@
 
 							<p>●       <strong>Transparência e Direitos do Titular:</strong> Garantindo que o cidadão seja informado e tenha autonomia sobre suas informações, podendo acessar, retificar ou contestar o tratamento.</p>
 
-							<p>●       <strong>Consentimento e Responsabilização:</strong> Estabelecendo mecanismos auditáveis de autorização e de prestação de contas.<a href="about:blank" target="_blank">[TM9]</a></p>
+							<p>●       <strong>Consentimento e Responsabilização:</strong> Estabelecendo mecanismos auditáveis de autorização e de prestação de contas.</p>
 
 							<p>A adoção desta abordagem transforma a conformidade legal em uma prática contínua e operacional. Ao combinar os controles técnicos do CIS com a estrutura do PPSI, a organização não apenas reduz riscos cibernéticos de forma mensurável, mas fortalece a confiança institucional, demonstrando que a proteção de dados pessoais é uma responsabilidade estruturada, técnica e, acima de tudo, focada na segurança das pessoas.</p>
 
 							<p><strong>| Saiba mais!</strong></p>
 
-							<p>O CIS Controls v8.1 ajuda você a se manter atualizado sobre seu local de trabalho em evolução, a tecnologia necessária para apoiá-lo e as ameaças enfrentadas por esses sistemas. Ele coloca ênfase específica na mudança para um ambiente híbrido ou totalmente em nuvem e no gerenciamento da segurança em toda a sua cadeia de suprimentos. <a href="https://www.cisecurity.org/controls/v8-1" target="_blank">CIS Critical Security Controls Version 8.1</a> <a href="about:blank" target="_blank">[TM10]</a></p>
+							<p>O CIS Controls v8.1 ajuda você a se manter atualizado sobre seu local de trabalho em evolução, a tecnologia necessária para apoiá-lo e as ameaças enfrentadas por esses sistemas. Ele coloca ênfase específica na mudança para um ambiente híbrido ou totalmente em nuvem e no gerenciamento da segurança em toda a sua cadeia de suprimentos. <a href="https://www.cisecurity.org/controls/v8-1" target="_blank">CIS Critical Security Controls Version 8.1</a></p>
 
 							<h4 class="m-txt-blue-ers titulo">Cybersecurity Framework 2.0: Seu Guia Estratégico</h4>
 
@@ -484,7 +603,7 @@
 
 							<p><strong>Alinhe</strong> as atividades de segurança cibernética com os objetivos de negócios e a gestão de riscos empresariais.</p>
 
-							<p><strong>Integrem</strong> com outras estruturas e padrões, como ISO/IEC 27001, NIST SP 800-53, e o Programa de Privacidade e Segurança da Informação (PPSI).<a href="about:blank" target="_blank">[TM12]</a></p>
+							<p><strong>Integrem</strong> com outras estruturas e padrões, como ISO/IEC 27001, NIST SP 800-53, e o Programa de Privacidade e Segurança da Informação (PPSI).</p>
 
 							<p>Ao converter a segurança cibernética de uma barreira técnica em uma <strong>estratégia de gestão e resiliência organizacional</strong>, o <strong>NIST <em>Cybersecurity Framework</em></strong> auxilia organizações públicas e privadas na estruturação de suas defesas. Sua adoção fundamenta-se em <strong>princípios consolidados, na priorização de riscos reais e no estabelecimento de processos auditáveis</strong>.</p>
 
@@ -492,9 +611,9 @@
 
 							<h4 class="m-txt-blue-ers titulo">LGPD</h4>
 
-							<p>A Lei Geral de Proteção de Dados Pessoais (LGPD – Lei nº 13.709/2018) foi promulgada para proteger os direitos fundamentais de liberdade, privacidade e livre formação da personalidade de cada indivíduo, regulando o tratamento de dados pessoais realizado por pessoa física ou jurídica, de direito público ou privado, em meio físico ou digital. A lei estabelece fundamentos como o respeito à privacidade e a autodeterminação informativa (art. 2º), princípios como finalidade, adequação, necessidade e transparência (art. 6º), e hipóteses legais que autorizam o tratamento de dados pessoais (art. 7º). Ela também disciplina o tratamento de dados sensíveis, de crianças e adolescentes, os direitos dos titulares, a responsabilidade dos agentes de tratamento e a atuação da Autoridade Nacional de Proteção de Dados (ANPD), órgão federal responsável por fiscalizar, orientar e regulamentar sua aplicação. No contexto do PPSI, a LGPD funciona como um dos pilares normativos centrais, articulando-se diretamente com controles específicos de privacidade, como os tratados nos guias complementares de elaboração do Registro das Operações de Tratamento (ROPA) e de Avisos de Privacidade.<a href="about:blank" target="_blank">[TM13]</a></p>
+							<p>A Lei Geral de Proteção de Dados Pessoais (LGPD – Lei nº 13.709/2018) foi promulgada para proteger os direitos fundamentais de liberdade, privacidade e livre formação da personalidade de cada indivíduo, regulando o tratamento de dados pessoais realizado por pessoa física ou jurídica, de direito público ou privado, em meio físico ou digital. A lei estabelece fundamentos como o respeito à privacidade e a autodeterminação informativa (art. 2º), princípios como finalidade, adequação, necessidade e transparência (art. 6º), e hipóteses legais que autorizam o tratamento de dados pessoais (art. 7º). Ela também disciplina o tratamento de dados sensíveis, de crianças e adolescentes, os direitos dos titulares, a responsabilidade dos agentes de tratamento e a atuação da Autoridade Nacional de Proteção de Dados (ANPD), órgão federal responsável por fiscalizar, orientar e regulamentar sua aplicação. No contexto do PPSI, a LGPD funciona como um dos pilares normativos centrais, articulando-se diretamente com controles específicos de privacidade, como os tratados nos guias complementares de elaboração do Registro das Operações de Tratamento (ROPA) e de Avisos de Privacidade.</p>
 
-							<p>A <strong>Lei Geral de Proteção de Dados (LGPD - Lei 13.709/2018)</strong> representa um marco histórico na defesa da privacidade e da autonomia dos cidadãos na era digital. Ao estabelecer regras claras para o tratamento de dados pessoais, a lei não apenas protege os direitos individuais, mas também promove um ambiente de transparência e confiança entre organizações, governo e sociedade.<a href="about:blank" target="_blank">[TM14]</a></p>
+							<p>A <strong>Lei Geral de Proteção de Dados (LGPD - Lei 13.709/2018)</strong> representa um marco histórico na defesa da privacidade e da autonomia dos cidadãos na era digital. Ao estabelecer regras claras para o tratamento de dados pessoais, a lei não apenas protege os direitos individuais, mas também promove um ambiente de transparência e confiança entre organizações, governo e sociedade.</p>
 
 							<p>Chegamos ao final deste primeiro módulo, esperamos que vocês tenham uma compreensão sólida da importância estratégica do Programa de Privacidade e Segurança da Informação (PPSI 2.0) e do papel fundamental que frameworks como o NIST <em>Cybersecurity Framework</em> 2.0 desempenham na construção de uma postura de segurança cibernética robusta e adaptável. A segurança da informação, como vimos, transcende a mera conformidade técnica; ela é um processo contínuo de gestão de riscos, que exige governança clara, metodologias eficazes, tecnologias adequadas e, acima de tudo, o engajamento e a conscientização de todas as pessoas envolvidas.</p>
 
