@@ -301,7 +301,16 @@
 .m-txt-grey.txt-dark-3 {color: #424242 !important;}
 .m-txt-grey.txt-dark-4 {color: #212121 !important;}
 
+
+
 /* bg */
+
+.m-bg-blue-ers {background-color: #003366 !important;}
+.m-bg-orange-ers {background-color: #FF8000 !important;}
+.m-bg-linear-blue-orange-ers {
+    /* display: inline-block; */
+    background-color: linear-gradient(to right, #003366, #FF8000);
+}
 
 .m-bg-black {background-color: #000000 !important;}
 
@@ -896,6 +905,14 @@
 .bg-transparent		{background-color: transparent !important;}
 
 /* Colors - Border */
+
+
+.m-bd-blue-ers {border-color: #003366 !important;}
+.m-bd-orange-ers {border-color: #FF8000 !important;}
+.m-bd-linear-blue-orange-ers {
+    /* display: inline-block; */
+    border-color: linear-gradient(to right, #003366, #FF8000);
+}
 
 /* Azul */
 .bd-blue,

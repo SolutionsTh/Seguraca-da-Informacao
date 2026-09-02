@@ -71,6 +71,11 @@ h6{
     min-height: auto !important;
 }
 
+.conteudo .container {
+    min-height: 85vh;
+	padding: 1.5rem 0;
+}
+
 
 .font-weight-600{
     font-weight: bold;
@@ -198,21 +203,25 @@ body::-webkit-scrollbar-thumb:hover{
 /*LIST*/
 [class*="-list"] {
     position: relative;
-    list-style: none;
+    /* list-style: none; */
     padding-left: 1.5rem !important;
 }
 .browser-default li, [class*="-list"] li {
     position: relative;
     margin-bottom: .2rem;
 }
-.pink-list li::before {
+.blue-list li::before {
     color: #003366;
 }
 ul:not(.browser-default)>li {
     list-style-type: none;
 }
+li::marker {
+    color: #003366;
+  font-weight: bold;
+}
 
-.pink-list .square-list.pink-list li::before { color: #333333; }
+.blue-list .square-list.blue-list li::before { color: #333333; }
 
 
 .arrow-list li::before {
@@ -383,7 +392,7 @@ ul ul{
 
 
 /*MATERIAL*/
-.material .capa {
+/* .material .capa {
     top: auto !important;
     left: 0 !important;
     width: 100% !important;
@@ -401,13 +410,13 @@ ul ul{
     display: flex;
     flex-direction: column;
     min-height: 85vh;
-}
+} */
 /*
 .material .container{
 	width: 90% !important;
 }
 */
-.icon-left-fixed{
+/* .icon-left-fixed{
 	position: fixed;
 	top: 0;
 	right: 0;
@@ -467,7 +476,7 @@ ul ul{
 	padding-top: 5px;
     font-size: 60px;
     line-height: 1;
-}
+} */
 
 
 
@@ -708,4 +717,121 @@ ul ul{
 }
 .bg-left {
     background-position: center left;
+}
+
+
+
+/*  */
+.bg-center {
+    background-position: center center;
+}
+.relative {
+    position: relative !important;
+}
+.section .container .full-width {
+    width: 99.8vw;
+    left: calc(-50vw + 50%);
+}
+
+.row .col p:last-child {
+	margin-bottom: 0;
+}
+
+
+
+/* Recusos Adicionais */
+/* .recursos-adicionais-bx-content {
+	background: #ffffff;
+	border:  1px solid #ff8000;
+	margin-bottom: 1.5rem;
+	border-radius: 30px;
+	padding: 20px;
+}
+
+.audio-content:first-child {
+	margin-bottom: 1.5rem;
+} */
+
+
+/* Grafico Steps 3 */
+.recursos-adicionais-bx-content .grafico-steps {
+	grid-template-columns: 1fr;
+	margin: 1rem 0;
+}
+.recursos-adicionais-bx-content .grafico-steps {
+	margin-bottom: 1rem;
+}
+.recursos-adicionais-bx-content .grafico-steps-title {
+	display: flex;
+}
+
+.recursos-adicionais-bx-content .grafico-steps-title div {
+    background: #003366;
+	padding: 0.5rem 0.9rem;
+	margin-bottom: 0;
+	border-radius: 15px 15px 2px 2px;
+	display: flex;
+	font-size: 22px;
+}
+.recursos-adicionais-bx-content .grafico-steps-title div h4 {
+	margin: auto 0;
+	padding-left: 5px;
+	color: #ffffff;
+	font-size: inherit;
+}
+.recursos-adicionais-bx-content .grafico-steps-title div mdi {
+	margin: auto;
+}
+
+.recursos-adicionais-bx-content .grafico-steps-text {
+	background: #FFFFFF;
+	display: inline-block;
+	border-radius: 2px 20px 20px 20px;
+    border: 1px solid #ff8000;
+	padding: 0.75rem 0.9rem;  
+}
+.recursos-adicionais-bx-content .grafico-steps-text p {
+	margin-bottom: 1rem !important;
+}
+.recursos-adicionais-bx-content .grafico-steps-text p:last-child{
+    margin-bottom: 0 !important;
+}
+
+
+/* Áudio */
+/* Remove fundo e bordas da caixa externa */
+.js-player {
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    outline: none;
+	margin-bottom: 1.5rem;
+}
+
+/* Deixa o fundo do painel branco/transparente */
+.js-player::-webkit-media-controls-panel {
+    background-color: #ffffff;
+    border-radius: 0;
+    padding: 10px;
+}
+
+/* Escurece os textos de tempo para combinar com a imagem */
+.js-player::-webkit-media-controls-current-time-display,
+.js-player::-webkit-media-controls-time-remaining-display {
+    color: #34495e;
+    /* Azul escuro/Cinza da sua imagem */
+    font-family: sans-serif;
+}
+
+
+
+.js-player::-webkit-media-controls-play-button {
+    scale: 1.1;
+    /* Aumenta um pouco o tamanho */
+}
+/* Altera o texto do tempo (00:00) */
+.js-player::-webkit-media-controls-current-time-display,
+.js-player::-webkit-media-controls-time-remaining-display {
+    font-family: Avenir, "Avenir Next", "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-weight: 500;
 }
