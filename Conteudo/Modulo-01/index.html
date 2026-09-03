@@ -54,7 +54,7 @@
 
     <div id="menuLateral" class="sidebar">
       <div class="sidebar-content">
-        <img class="logo-afya" src="../../Base/v1/img/icon/ESR-logo-branco.png">
+        <img class="logo-ers" src="../../Base/v1/img/icon/ESR-trasparente.png">
 
         <a href="#cs2" class="btn-menu on"><i class="icon mdi mdi-format-align-center mg-s-right"></i><span>Introdução</span></a>
 
@@ -62,13 +62,13 @@
 
         <a href="#cs4" class="btn-menu"><i class="icon mdi mdi-pencil mg-s-right"></i><span>Conteúdo</span></a>
 
-		<a href="#cs5" class="btn-menu"><i class="icon mdi mdi-microphone"></i><span>Podcast</span></a>
+		<a href="#cs5" class="btn-menu"><i class="icon mdi mdi-microphone"></i><span>Recursos Adicionais</span></a>
 
         <!-- <a href="#cs6" class="btn-menu"><i class="icon mdi mdi-list-status mg-s-right"></i><span>Exercicios</span></a>
 
         <a href="#cs7" class="btn-menu"><i class="icon mdi mdi-movie-open-play mg-s-right"></i><span>Vídeo</span></a> -->
 
-		<a href="#cs5" class="btn-menu"><i class="icon mdi mdi-book-variant"></i><span>Referências</span></a>
+		<a href="#cs6" class="btn-menu"><i class="icon mdi mdi-book-variant"></i><span>Referências</span></a>
 
       </div>
     </div>
@@ -92,10 +92,17 @@
 				</video>
 
 				<div class="row container txt-white">
+					<!-- <div class="logo-ers-content">
+						<img class="logo-ers" src="../../Base/v1/img/icon/ESR-logo-branco-laranja.png">
+					</div> -->
 
 					<div class="section-title" uk-scrollspy="cls: uk-animation-fade; repeat: true; delay: 300;">
 
 						<h1 class="txt-white txt-center">Introdução ao PPSI e à Gestão de Segurança da Informação</h1>
+
+						<div class="modulo-content">
+							<p class="modulo">Módulo 1</p>
+						</div>
 					</div>
 
 				</div>
@@ -209,7 +216,7 @@
 				</div>
 			</div>
 
-			<section class="module parallax parallax-conteudo">
+			<section class="module parallax parallax-conteudo" id="cs4">
 				<div class="overlay"></div>
 
 				<div class="conteudo-titulo" uk-scrollspy="cls: uk-animation-scale-up; repeat: true; delay: 200;">
@@ -687,7 +694,17 @@
 									</div>
 								</div>
 
-								<p>Na prática, o guia mapeia os 18 controles do CIS v8.1 frente aos princípios fundamentais de privacidade. Isso significa que, ao implementar uma medida de segurança, o gestor é orientado a garantir que ela também atenda a diretrizes como:</p>
+								<p>Na prática, o guia mapeia os 18 controles do CIS v8.1 frente aos princípios fundamentais de privacidade. Isso significa que, ao implementar uma medida de segurança, o gestor é orientado a garantir que ela também atenda a diretrizes como:</p>								
+
+								<ul class="square-list pink-list">
+
+									<li>Minimização de dados e Limitação de propósito: Assegurando que apenas os dados estritamente necessários sejam tratados e para fins claramente definidos.</li>
+
+									<li>Transparência e Direitos do Titular: Garantindo que o cidadão seja informado e tenha autonomia sobre suas informações, podendo acessar, retificar ou contestar o tratamento.</li>
+
+									<li>Consentimento e Responsabilização: Estabelecendo mecanismos auditáveis de autorização e de prestação de contas.</li>
+
+								</ul>
 
 								<p>A adoção desta abordagem transforma a conformidade legal em uma prática contínua e operacional. Ao combinar os controles técnicos do CIS com a estrutura do PPSI, a organização não apenas reduz riscos cibernéticos de forma mensurável, mas fortalece a confiança institucional, demonstrando que a proteção de dados pessoais é uma responsabilidade estruturada, técnica e, acima de tudo, focada na segurança das pessoas.</p>
 
@@ -813,7 +830,21 @@
 
 								<p>Para personalizar essa estrutura, o framework utiliza os <strong>Perfis Organizacionais</strong>, que alinham as ações de segurança às necessidades específicas e recursos do órgão. Complementarmente, os <strong>Níveis (Tiers)</strong> fornecem uma escala de maturidade para avaliar quão rigorosos e integrados são os processos de gestão de risco, permitindo uma evolução contínua e mensurável.</p>
 
-								<p>Figura 1 – <em>NIST Cybersecurity Framework 2.0 (Fonte:</em> <a href="https://www.nist.gov/system/files/documents/2023/04/24/NIST%20Cybersecurity%20Framework%202.0%20Core%20Discussion%20Draft%204-2023%20final.pdf" target="_blank">https://www.nist.gov/system/files/documents/2023/04/24/NIST%20Cybersecurity%20Framework%202.0%20Core%20Discussion%20Draft%204-2023%20final.pdf</a>).</p>
+								<!--IMAGEM SIMPLES COM LEGENDA - FUNDO PREENCHIDO-->
+								<div class="destaque imagem-com-legenda" uk-scrollspy="cls: uk-animation-scale-up; delay: 500;">
+									<div class="div-imagem-fundo-preenchido">
+										<div class="imagem-fundo-preenchido">
+											<img class="responsive-img" src="img/figura-01.png" title="Figura 1">
+										</div>
+									</div>
+
+									
+									<div class="div-legenda-imagem-fundo-preenchido">
+
+										<p class="txt-center txt-small legenda">Figura 1 – <em>NIST Cybersecurity Framework 2.0 (Fonte:</em> <a href="https://www.nist.gov/system/files/documents/2023/04/24/NIST%20Cybersecurity%20Framework%202.0%20Core%20Discussion%20Draft%204-2023%20final.pdf" target="_blank">https://www.nist.gov/system/files/documents/2023/04/24/NIST%20Cybersecurity%20Framework%202.0%20Core%20Discussion%20Draft%204-2023%20final.pdf</a>).</p>
+									</div>
+
+								</div>
 
 								<p>O CSF 2.0 é projetado para ser flexível e adaptável, permitindo que organizações:</p>
 
@@ -854,7 +885,7 @@
 						<div class="col s12 m12 l12">
 							<div class="section-text">
 
-								<p>Chegamos ao final deste primeiro módulo, esperamos que vocês tenham uma compreensão sólida da importância estratégica do Programa de Privacidade e Segurança da Informação (PPSI 2.0) e do papel fundamental que frameworks como o NIST <em>Cybersecurity Framework</em> 2.0 desempenham na construção de uma postura de segurança cibernética robusta e adaptável. A segurança da informação, como vimos, transcende a mera conformidade técnica; ela é um processo contínuo de gestão de riscos, que exige governança clara, metodologias eficazes, tecnologias adequadas e, acima de tudo, o engajamento e a conscientização de todas as pessoas envolvidas.</p>
+								<p>Chegamos ao final deste primeiro módulo, esperamos que vocês tenham uma compreensão sólida da importância estratégica do Programa de Privacidade e Segurança da Informação (PPSI 2.0) e do papel fundamental que <em>frameworks</em> como o NIST <em>Cybersecurity Framework</em> 2.0 desempenham na construção de uma postura de segurança cibernética robusta e adaptável. A segurança da informação, como vimos, transcende a mera conformidade técnica; ela é um processo contínuo de gestão de riscos, que exige governança clara, metodologias eficazes, tecnologias adequadas e, acima de tudo, o engajamento e a conscientização de todas as pessoas envolvidas.</p>
 
 							</div>
 						</div>
@@ -880,7 +911,7 @@
 				</div>
 			</div>
 
-			<section class="module parallax parallax-recursos-adicionais">
+			<section class="module parallax parallax-recursos-adicionais" id="cs5">
 				<div class="overlay"></div>
 
 				<div class="recursos-adicionais-titulo" uk-scrollspy="cls: uk-animation-scale-up; repeat: true; delay: 200;">
@@ -889,7 +920,7 @@
 			</section>
 
 			<!-- RECURSOS ADICIONAIS -->
-			<div data-cc="on" class="section bg-recursos-adicionais valign-wrapper bg-center bg-cover bg-fixed x-index" id="cs4" uk-scrollspy="cls: uk-animation-slide-bottom-medium; target:.section-text; delay: 400;">
+			<div data-cc="on" class="section bg-recursos-adicionais valign-wrapper bg-center bg-cover bg-fixed x-index" uk-scrollspy="cls: uk-animation-slide-bottom-medium; target:.section-text; delay: 400;" id="cs5">
 				
 
 				<div class="container">
@@ -969,7 +1000,7 @@
 			</div>
 
 			<!-- REFERÊNCIAS -->
-			<div data-cc="on" class="section bg-referencias valign-wrapper bg-center bg-cover bg-fixed x-index" id="cs5">
+			<div data-cc="on" class="section bg-referencias valign-wrapper bg-center bg-cover bg-fixed x-index" id="cs6">
 				<div class="row container">
 					<div class="col s12 m7 l7">
 
