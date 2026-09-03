@@ -834,7 +834,8 @@ th {
 @media screen and (max-width: 639px){
 	.grafico-steps-box-1 .grafico-steps-title{
 		font-size: 70px !important;
-		min-width: 80px;
+		/* min-width: 80px; */
+        margin: auto;
 	}
 }
 .grafico-steps-box-1 .grafico-steps-text {
