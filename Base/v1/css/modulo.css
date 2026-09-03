@@ -109,6 +109,35 @@
     position: relative;
     z-index: 3;
 }
+.conteudo .capa .container .logo-ers-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: -50px;
+    margin-left: -15%;
+}
+.conteudo .capa .container .logo-ers {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 90px;
+}
+.conteudo .capa .container .modulo-content {
+    color: #ffffff;
+    font-size: 25px !important;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px !important;
+    border: 2px solid #ffffff;
+    width: auto;
+    border-radius: 20px;
+    backdrop-filter: blur(4px);
+}
+.conteudo .capa .container .modulo {
+    margin: 0;
+    padding: 10px 20px;
+    text-shadow: 0px 0px 5px #000000, 0px 0px 11px #000000;
+}
 .conteudo .icon-capa{
 	margin-bottom: 24px;
 }
@@ -1144,7 +1173,7 @@ ul.accordion.uk-accordion {
     min-width: 100%;
     background: #ffffff;
     padding: 20px;
-    border-radius: 0 30px 0 30px;
+    border-radius: 0 30px 30px 30px;
     border: 2px solid #ff8000;
 }
 
@@ -1210,7 +1239,7 @@ ul.accordion.uk-accordion {
     min-width: 100%;
     background: #ffffff;
     padding: 20px;
-    border-radius: 0 30px 0 30px;
+    border-radius: 0 30px 30px 30px;
     border: 2px solid #ff8000;
 }
 
@@ -1317,6 +1346,37 @@ ul.accordion.uk-accordion {
     margin-bottom: 0.25rem;
 	border-radius: 0 15px 0 0;
 	color: #ffffff;
+}
+
+
+/* Imagem Fundo Preenchido */
+.imagem-com-legenda .div-imagem-fundo-preenchido, .imagem-sem-legenda .div-imagem-fundo-preenchido{
+	display: flex;
+}
+
+.imagem-com-legenda .div-imagem-fundo-preenchido .imagem-fundo-preenchido, .imagem-sem-legenda .div-imagem-fundo-preenchido .imagem-fundo-preenchido {
+	border-radius: 14px;
+}
+.imagem-fundo-preenchido {
+	padding: 2px;
+	border-radius: 25px 0;
+	margin: auto;
+	margin-top: 1.5rem;
+	margin-bottom: 0rem;
+	display: inline-block;	
+}
+
+.imagem-com-legenda .div-imagem-fundo-preenchido .imagem-fundo-preenchido img, .imagem-sem-legenda .div-imagem-fundo-preenchido .imagem-fundo-preenchido img {
+	border-radius: 12px;
+}
+.imagem-fundo-preenchido img {
+  border-radius: 24px 0;
+	margin-bottom: 0;
+}
+.div-legenda-imagem-fundo-preenchido {
+    width: 90%;
+    display: flex;
+    margin: auto;
 }
 
 
