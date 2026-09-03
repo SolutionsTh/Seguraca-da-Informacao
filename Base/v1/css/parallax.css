@@ -151,3 +151,27 @@ section.module.parallax:after{
 	font-weight: 600;
 	text-shadow: 0px 0px 8px #000000, 0px 0px 11px #000000;
 }
+
+
+
+/* Correção para dispositivos móveis e iOS (iPhone) */
+@media only screen and (max-width: 992px) {
+  section.module.parallax {
+    background-attachment: scroll !important;
+    background-position: center center !important;
+    background-size: cover !important;
+  }
+  
+  .overlay-white {
+    background-attachment: scroll !important;
+    background-position: center center !important;
+  }
+}
+
+/* Trava específica para Safari/iOS em qualquer orientação */
+@supports (-webkit-touch-callout: none) {
+  section.module.parallax {
+    background-attachment: scroll !important;
+    background-position: center center !important;
+  }
+}
